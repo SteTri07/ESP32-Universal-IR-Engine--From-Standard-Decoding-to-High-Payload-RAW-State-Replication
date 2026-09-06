@@ -4,6 +4,8 @@
 
 \## Overview
 
+
+
 The third version represents the culmination of this hardware journey, transforming the system into a universal controller capable of replicating any infrared device thanks to the power and flexibility of raw data.
 
 
@@ -12,11 +14,25 @@ The evolutionary leap toward this universal configuration stemmed directly from 
 
 
 
-!\[Architecture and Component](img/3.jpeg)
+<p align="center">
+
+&#x20; <img src="img/3.jpeg" alt="Architecture and Component" width="80%">
+
+</p>
+
+
+
+\---
 
 
 
 \## Key Engineering Achievements
 
+
+
 Freed from any proprietary protocol decoding constraints and backed by optimized memory management, the system has become entirely agnostic regarding brand or appliance type. It can accurately store and replay the RAW signatures of televisions, air conditioners, or any other infrared peripheral simply by capturing their energetic footprint.
+
+
+
+\---
 
