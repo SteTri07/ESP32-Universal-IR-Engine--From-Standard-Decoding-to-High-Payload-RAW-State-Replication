@@ -34,12 +34,9 @@ Explore the evolutionary phases of the project:
 
 
 
-\*   \*\*\[v1.0 - Foundation \& Standard Protocols](version-1.0.md)\*\* — Standard protocol decoding for basic appliance and TV control using hardware timers.
-
-\*   \*\*\[v2.0 - Timing Optimization](version-2.0.md)\*\* — Multi-button RAW approach for precise signal generation on dedicated hardware pins.
-
-\*   \*\*\[v3.0 - High-Payload AC Controller](version-3.0.md)\*\* — Advanced state replication engine capable of managing complex air conditioner packets and memory constraints.
-
+*   **[v1.0 - Foundation & Standard Protocols](version-1.0.md)** — Standard protocol decoding for basic appliance and TV control using hardware timers.
+*   **[v2.0 - Timing Optimization](version-2.0.md)** — Multi-button RAW approach for precise signal generation on dedicated hardware pins.
+*   **[v3.0 - High-Payload AC Controller](version-3.0.md)** — Advanced state replication engine capable of managing complex air conditioner packets and memory constraints.
 
 
 \---
