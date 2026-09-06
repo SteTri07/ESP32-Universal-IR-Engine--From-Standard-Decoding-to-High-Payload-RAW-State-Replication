@@ -1,20 +1,62 @@
-\# Universal Infrared Control System Based on ESP32
+\# ESP32 Universal IR Engine
 
 
 
-\## Abstract and Project Objectives
+<p align="center">
 
-This repository documents the architecture, prototyping, and implementation of a high-reliability infrared (IR) signal decoding and transmission system. Developed around the ESP32 microcontroller, the project integrates the decoding of home automation protocols and the hardware management of a custom receiver/transmitter circuit. The primary objective was to overcome the limitations of standard commercial remote controls, creating a programmable interface for local automation.
+&#x20; <b>High-reliability infrared signal decoding and transmission system for advanced home automation.</b>
+
+</p>
 
 
 
-\## Evolutionary Milestones
+\---
 
-The project evolved through three distinct engineering phases:
 
-\- \*\*v1.0\*\*: Standard protocol decoding for basic TV control.
 
-\- \*\*v2.0\*\*: Multi-button RAW approach for precise transmission on dedicated pins.
+\## Overview
 
-\- \*\*v3.0\*\*: High-payload AC (Air Conditioner) RAW controller, capable of managing complex state packets and memory limits.
+
+
+This repository documents the architecture, prototyping, and implementation of a custom infrared (IR) transceiver built around the ESP32 microcontroller. Designed to overcome the limitations of standard commercial remotes, this project provides a robust, programmable interface capable of managing both standard protocols and complex high-payload raw state sequences.
+
+
+
+\---
+
+
+
+\## Documentation Index
+
+
+
+Explore the evolutionary phases of the project:
+
+
+
+\*   \*\*\[v1.0 - Foundation \& Standard Protocols](version-1.0.md)\*\* — Standard protocol decoding for basic appliance and TV control using hardware timers.
+
+\*   \*\*\[v2.0 - Timing Optimization](version-2.0.md)\*\* — Multi-button RAW approach for precise signal generation on dedicated hardware pins.
+
+\*   \*\*\[v3.0 - High-Payload AC Controller](version-3.0.md)\*\* — Advanced state replication engine capable of managing complex air conditioner packets and memory constraints.
+
+
+
+\---
+
+
+
+\## Source Code \& Access
+
+
+
+The complete firmware source code, libraries, and hardware schematics are hosted in a private repository to protect proprietary implementations. 
+
+
+
+> \*\*Want access?\*\* If you are a developer, recruiter, or collaborator interested in reviewing the source code, please feel free to contact me directly to request repository access.
+
+
+
+\---
 
