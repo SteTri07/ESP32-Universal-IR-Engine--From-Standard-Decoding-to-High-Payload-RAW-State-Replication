@@ -4,17 +4,29 @@
 
 \## Overview
 
+
+
 The first milestone based on the native decoding of commercial protocols, focused on using standard logic addresses and commands (such as the Sony protocol) to drive devices using the microcontroller's standard libraries.
+
+
+
+\---
 
 
 
 \## Technical Scope
 
-\- Implementation of standard IR libraries.
 
-\- Verification of basic signal reception and transmission via the ESP32.
 
-\- Establishment of a functional baseline for command mapping.
+\*   Implementation of standard IR libraries.
+
+\*   Verification of basic signal reception and transmission via the ESP32.
+
+\*   Establishment of a functional baseline for command mapping.
+
+
+
+\---
 
 
 
@@ -30,7 +42,11 @@ The core of the circuit is the ESP32, chosen for its dual processing capabilitie
 
 
 
-!\[IR receiver](img/1a.jpeg)
+<p align="center">
+
+&#x20; <img src="img/1a.jpeg" alt="IR receiver" width="80%">
+
+</p>
 
 
 
@@ -38,7 +54,13 @@ From a software perspective, this version leverages standard decoding libraries 
 
 
 
-!\[Architecture and Component](img/1b.jpeg)
+<p align="center">
+
+&#x20; <img src="img/1b.jpeg" alt="Architecture and Component" width="80%">
+
+</p>
 
 
+
+\---
 
