@@ -18,11 +18,11 @@ An evolution centered on raw data, which overcame the interpretation limits of s
 
 
 
-\*   Transition from protocol-dependent parsing to raw pulse-width capture.
+\* Transition from protocol-dependent parsing to raw pulse-width capture.
 
-\*   Custom pin mapping for multi-button configurations.
+\* Custom pin mapping for multi-button configurations.
 
-\*   Elimination of library overhead for targeted commands.
+\* Elimination of library overhead for targeted commands.
 
 
 
