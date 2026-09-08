@@ -1,40 +1,35 @@
+
 ---
-title: Welcome to Starlight
-description: Get started building your docs site with Starlight.
-template: splash # Remove or comment out this line to display the site sidebar on this page.
+title: ESP32 Universal IR Engine
+description: High-reliability infrared signal decoding and transmission system for advanced home automation.
+template: splash
 hero:
-  tagline: Congrats on setting up a new Starlight project!
-  image:
-    file: ../../assets/houston.webp
+  tagline: High-reliability infrared signal decoding and transmission system for advanced home automation.
   actions:
-    - text: Example Guide
-      link: /guides/example/
+    - text: Esplora la v1.0
+      link: /version-1/
       icon: right-arrow
-    - text: Read the Starlight docs
-      link: https://starlight.astro.build
+      variant: primary
+    - text: Richiedi accesso al codice
+      link: https://github.com/SteTri07
       icon: external
-      variant: minimal
 ---
 
-import { Card, CardGrid } from '@astrojs/starlight/components';
 
-## Next steps
+## Overview
 
-<CardGrid stagger>
-	<Card title="Update content" icon="pencil">
-		Edit `src/content/docs/index.mdx` to see this page change.
-	</Card>
-	<Card title="Change page layout" icon="document">
-		Delete `template: splash` in `src/content/docs/index.mdx` to display a
-		sidebar on this page.
-	</Card>
-	<Card title="Add new content" icon="add-document">
-		Add Markdown or MDX files to `src/content/docs` to create new pages.
-	</Card>
-	<Card title="Configure your site" icon="setting">
-		Edit your `sidebar` and other config in `astro.config.mjs`.
-	</Card>
-	<Card title="Read the docs" icon="open-book">
-		Learn more in [the Starlight Docs](https://starlight.astro.build/).
-	</Card>
-</CardGrid>
+This repository documents the architecture, prototyping, and implementation of a custom infrared (IR) transceiver built around the ESP32 microcontroller. Designed to overcome the limitations of standard commercial remotes, this project provides a robust, programmable interface capable of managing both standard protocols and complex high-payload raw state sequences.
+
+## Documentation Index
+
+Explore the evolutionary phases of the project:
+
+*   **[v1.0 - Foundation & Standard Protocols](/version-1/)** — Standard protocol decoding for basic appliance and TV control using hardware timers.
+*   **[v2.0 - Timing Optimization](/version-2/)** — Multi-button RAW approach for precise signal generation on dedicated hardware pins.
+*   **[v3.0 - High-Payload AC Controller](/version-3/)** — Advanced state replication engine capable of managing complex air conditioner packets and memory constraints.
+
+## Source Code & Access
+
+The complete firmware source code, libraries, and hardware schematics are hosted in a private repository to protect proprietary implementations. 
+
+> **Want access?** If you are a developer, recruiter, or collaborator interested in reviewing the source code, please feel free to contact me directly to request repository access.

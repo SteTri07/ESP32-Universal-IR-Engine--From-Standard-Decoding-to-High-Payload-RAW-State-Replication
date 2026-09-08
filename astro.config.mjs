@@ -4,23 +4,27 @@ import starlight from '@astrojs/starlight';
 
 // https://astro.build/config
 export default defineConfig({
+	site: 'https://tuo-username.github.io',
+  	base: '/nome-del-repository',
 	integrations: [
 		starlight({
-			title: 'My Docs',
+			title: 'ESP32 Universal IR Engine',
 			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/withastro/starlight' }],
 			sidebar: [
 				{
-					label: 'Guides',
-					items: [
-						// Each item here is one entry in the navigation menu.
-						{ label: 'Example Guide', slug: 'guides/example' },
-					],
+					label: 'Introduzione',
+					link: '/',
 				},
 				{
-					label: 'Reference',
-					items: [{ autogenerate: { directory: 'reference' } }],
+					label: 'Versioni del Progetto',
+					items: [
+								{ label: 'v1.0 - Standard TV Controller', link: 'version-1' },
+								{ label: 'v2.0 - Multi-Button RAW', link: 'version-2' },
+								{ label: 'v3.0 - High-Payload AC', link: 'version-3' },					
+							],
 				},
 			],
 		}),
 	],
 });
+
