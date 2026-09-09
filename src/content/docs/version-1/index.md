@@ -25,7 +25,7 @@ This initial phase of the project established the logical and circuit foundation
 The core of the circuit is the ESP32, chosen for its dual processing capabilities and flexibility in assigning input/output pins (GPIO). The IR receiver module was connected to the microcontroller, properly powered and interfaced with a dedicated digital pin for data sampling. The primary task of this hardware stage is signal demodulation: the sensor filters out ambient noise frequencies, allowing only the useful carrier wave emitted by the commercial remote control to pass through.
 
 <p align="center">
-  <img src="/img/1a.jpeg" alt="IR receiver" width="80%">
+  <img src="/ESP32-Universal-IR-Engine--From-Standard-Decoding-to-High-Payload-RAW-State-Replication/img/1a.jpeg" alt="IR receiver" width="80%">
 </p>
 
 From a software perspective, this version leverages standard decoding libraries to analyze the binary packets associated with widespread commercial protocols, such as the Sony protocol. Each button pressed on the remote generates a specific bit sequence consisting of a header, a logical device address, and an associated command. The ESP32 receives these streams through the input pin, interprets them by comparing them with library dictionaries, and outputs a logical feedback on the serial monitor. This approach validated the reliability of the circuit connections while highlighting the inherent limitations of relying on closed libraries bound to fixed commercial standards.
