@@ -31,7 +31,7 @@ The core of the circuit is the ESP32, chosen for its dual processing capabilitie
 From a software perspective, this version leverages standard decoding libraries to analyze the binary packets associated with widespread commercial protocols, such as the Sony protocol. Each button pressed on the remote generates a specific bit sequence consisting of a header, a logical device address, and an associated command. The ESP32 receives these streams through the input pin, interprets them by comparing them with library dictionaries, and outputs a logical feedback on the serial monitor. This approach validated the reliability of the circuit connections while highlighting the inherent limitations of relying on closed libraries bound to fixed commercial standards.
 
 <p align="center">
-  <img src="/img/1b.jpeg" alt="Architecture and Component" width="80%">
+  <img src="/ESP32-Universal-IR-Engine--From-Standard-Decoding-to-High-Payload-RAW-State-Replication/img/1b.jpeg" alt="Architecture and Component" width="80%">
 </p>
 
 ---

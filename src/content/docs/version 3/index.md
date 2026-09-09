@@ -20,7 +20,7 @@ title: v3.0 - High-Payload AC Controller
 
 <p align="center">
 
-&#x20; <img src="/img/3.jpeg" alt="Architecture and Component" width="80%">
+&#x20; <img src="/ESP32-Universal-IR-Engine--From-Standard-Decoding-to-High-Payload-RAW-State-Replication/img/3.jpeg" alt="Architecture and Component" width="80%">
 
 </p>
 

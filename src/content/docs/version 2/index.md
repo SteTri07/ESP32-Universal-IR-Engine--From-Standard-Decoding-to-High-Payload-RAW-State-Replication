@@ -48,7 +48,7 @@ title: v2.0 - Multi-Button RAW TV Controller
 
 <p align="center">
 
-&#x20; <img src="/img/2.jpeg" alt="Architecture and Component" width="80%">
+&#x20; <img src="/ESP32-Universal-IR-Engine--From-Standard-Decoding-to-High-Payload-RAW-State-Replication/img/2.jpeg" alt="Architecture and Component" width="80%">
 
 </p>
 
