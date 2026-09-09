@@ -12,11 +12,11 @@ export default defineConfig({
 			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/withastro/starlight' }],
 			sidebar: [
 				{
-					label: 'Introduzione',
+					label: 'Introduction',
 					link: '/',
 				},
 				{
-					label: 'Versioni del Progetto',
+					label: 'Project Versions',
 					items: [
 								{ label: 'v1.0 - Standard TV Controller', link: 'version-1' },
 								{ label: 'v2.0 - Multi-Button RAW', link: 'version-2' },
